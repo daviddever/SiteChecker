@@ -23,7 +23,7 @@ Installation
 ============
 
 1. Install the dependencies and clone the repo
-::
+
     pip install requests
     pip install pyping
     git clone https://github.com/daviddever/SiteChecker.git
