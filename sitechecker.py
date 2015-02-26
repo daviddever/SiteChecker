@@ -23,7 +23,7 @@ exception_recipient = 'admin@site.com'
 recipient = 'group@site.com'
 
 # SMTP Server to send mail through
-smpt_serv = 'mail.local.domain'
+smtp_serv = 'mail.local.domain'
 
 # Log Location, use forward slashes instead of backslashes
 log_file = 'c:/sitechecker/log.txt'
