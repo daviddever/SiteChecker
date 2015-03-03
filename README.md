@@ -12,11 +12,11 @@ This script was written to deal with a webapp we had in production that would of
 Requirements
 ============
 
-Website running on Windows Server 2003
-Script needs to run on a windows server with an account with admin permissions on the webserver
-Python 2.7
-Requests: http://docs.python-requests.org
-Pyping: pypi.python.org/pypi/pyping
+* Website running on Windows Server 2003
+* Script needs to run on a windows server with an account with admin permissions on the webserver
+* Python 2.7
+* Requests: http://docs.python-requests.org
+* Pyping: pypi.python.org/pypi/pyping
 
 
 Installation
@@ -24,9 +24,11 @@ Installation
 
 1. Install the dependencies and clone the repo
 
+    ```
     pip install requests
     pip install pyping
     git clone https://github.com/daviddever/SiteChecker.git
+    ```
 
 2. Edit the variables at the top of sitechecker.py for your environment
 
